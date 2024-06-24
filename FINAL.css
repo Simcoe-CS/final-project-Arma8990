@@ -1,0 +1,97 @@
+
+.h1a {
+    text-align: center;
+    font-size: xx-large; 
+    color: black ;
+}
+/* Customizes Title */
+
+.body1 {
+    background-image: linear-gradient(Blue, Purple, red);
+height: 100vh;
+}
+/* Customizes background */
+
+.body2 {
+    background-image: linear-gradient(Blue, Purple, red);
+}
+/* Customizes background */
+
+.navdivtext {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-size: xx-large;
+}
+/* Customizes the button to go to game page */
+
+.navdivtext2 {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-size: xx-large;
+}
+/* Customizes the button to go to home page */
+
+a:hover {
+    color: blue;
+}
+
+
+a:active {
+    color: red;
+}
+
+
+a {
+    color: black;
+}
+/* The button to go to the game page or the link.. These customize the button/link to the game page */
+
+.div2 {
+    text-align: center;
+    text-size-adjust: 2500px;
+}
+
+
+.board-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: larger;
+}
+/* Creates the Tic Tac Toe Board */
+
+.board {
+    background-color: white;
+    border: solid black;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+/* Customize the board */
+
+.board2 {
+    display: flex;
+    justify-content:center;
+}
+/* Centre the board */
+
+footer {
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+}
+/* Puts the new board button at the footer. */
+
+.img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
